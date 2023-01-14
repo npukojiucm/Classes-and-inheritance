@@ -2,6 +2,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    jest: true,
   },
   extends: 'airbnb-base',
   overrides: [
@@ -11,6 +12,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    'no-multi-assign': 0,
+    'no-unused-vars': 0,
+    'no-shadow': 0,
   },
 };
